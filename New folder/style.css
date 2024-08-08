@@ -1,0 +1,63 @@
+body{
+ background:#79a6d2;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 25%;
+}
+.column {
+  padding: 30px 20px;
+  float: left;
+  width: 50%;
+  box-shadow: 7px 7px 10px #8cb3d9,
+  -7px -7px 10px #8cb3d9;
+  border-radius: 20px;
+}
+
+.row{
+  padding: 80px 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 30px;
+  background: #c6d9ec;
+  border-radius: 20px;
+}
+input:hover {
+    box-shadow: 7px 7px 10px #8cb3d9,
+  -7px -7px 10px #8cb3d9;
+}
+.registerbtn {
+  background-color: #336699;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 49%;
+  opacity: 1;
+  border-radius: 20px;
+}
+.registerbtn:hover {
+  opacity: 0.7;
+}
